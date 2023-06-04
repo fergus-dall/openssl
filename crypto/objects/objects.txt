@@ -1813,3 +1813,9 @@ oracle 746875 1 1 : oracle-jdk-trustedkeyusage : Trusted key usage (Oracle)
 # NID for compression
                             : brotli : Brotli compression
 			    : zstd : Zstandard compression
+
+# NIDs for BN curves in the Trusted Computing Group Algorithm Registry
+# Note that the "BN256" here is not the same curve as the "BN256" curve
+# used elsewhere and indeed there seems to be no standard for 256-bit BN curves
+    : tcg_bn_P256
+    : tcg_bn_P638

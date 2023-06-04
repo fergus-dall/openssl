@@ -1292,3 +1292,5 @@ ms_ntds_obj_sid		1291
 ms_ntds_sec_ext		1292
 ms_cert_templ		1293
 ms_app_policies		1294
+tcg_bn_P256		1295
+tcg_bn_P638		1296

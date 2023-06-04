@@ -113,6 +113,9 @@ static const EC_NAME2NID curve_list[] = {
     {"brainpoolP512t1", NID_brainpoolP512t1 },
     /* SM2 curve */
     {"SM2", NID_sm2 },
+    /* TCG BN curves */
+    {"tcg_bn_P256", NID_tcg_bn_P256 },
+    {"tcg_bn_P638", NID_tcg_bn_P638 },
 };
 
 const char *OSSL_EC_curve_nid2name(int nid)

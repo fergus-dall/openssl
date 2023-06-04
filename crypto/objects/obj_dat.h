@@ -1159,7 +1159,7 @@ static const unsigned char so[8401] = {
     0x2B,0x06,0x01,0x04,0x01,0x82,0x37,0x15,0x0A,  /* [ 8391] OBJ_ms_app_policies */
 };
 
-#define NUM_NID 1295
+#define NUM_NID 1297
 static const ASN1_OBJECT nid_objs[NUM_NID] = {
     {"UNDEF", "undefined", NID_undef},
     {"rsadsi", "RSA Data Security, Inc.", NID_rsadsi, 6, &so[0]},
@@ -2456,9 +2456,11 @@ static const ASN1_OBJECT nid_objs[NUM_NID] = {
     {"ms-ntds-sec-ext", "Microsoft NTDS CA Extension", NID_ms_ntds_sec_ext, 9, &so[8373]},
     {"ms-cert-templ", "Microsoft certificate template", NID_ms_cert_templ, 9, &so[8382]},
     {"ms-app-policies", "Microsoft Application Policies Extension", NID_ms_app_policies, 9, &so[8391]},
+    {"tcg_bn_P256", "tcg_bn_P256", NID_tcg_bn_P256},
+    {"tcg_bn_P638", "tcg_bn_P638", NID_tcg_bn_P638},
 };
 
-#define NUM_SN 1286
+#define NUM_SN 1288
 static const unsigned int sn_objs[NUM_SN] = {
      364,    /* "AD_DVCS" */
      419,    /* "AES-128-CBC" */
@@ -3696,6 +3698,8 @@ static const unsigned int sn_objs[NUM_SN] = {
      890,    /* "supportedAlgorithms" */
      874,    /* "supportedApplicationContext" */
      402,    /* "targetInformation" */
+    1295,    /* "tcg_bn_P256" */
+    1296,    /* "tcg_bn_P638" */
      864,    /* "telephoneNumber" */
      866,    /* "teletexTerminalIdentifier" */
      865,    /* "telexNumber" */
@@ -3748,7 +3752,7 @@ static const unsigned int sn_objs[NUM_SN] = {
     1289,    /* "zstd" */
 };
 
-#define NUM_LN 1286
+#define NUM_LN 1288
 static const unsigned int ln_objs[NUM_LN] = {
      363,    /* "AD Time Stamping" */
      405,    /* "ANSI X9.62" */
@@ -4995,6 +4999,8 @@ static const unsigned int ln_objs[NUM_LN] = {
      890,    /* "supportedAlgorithms" */
      874,    /* "supportedApplicationContext" */
      100,    /* "surname" */
+    1295,    /* "tcg_bn_P256" */
+    1296,    /* "tcg_bn_P638" */
      864,    /* "telephoneNumber" */
      866,    /* "teletexTerminalIdentifier" */
      865,    /* "telexNumber" */
